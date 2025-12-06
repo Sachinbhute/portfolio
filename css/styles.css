@@ -23,6 +23,7 @@
 .navbar-brand{
     font-family: 'Poppins', sans-serif;
     color: #F8FAFC;
+    padding: 5px;
 }
 
 .navbar .nav-link{
@@ -37,6 +38,12 @@
     background-color: #0F172A;
 }
 
+.navbar img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    filter: invert(1);
+}
 @media (max-width: 576px) { 
     .offcanvas .nav{
         display: flex;
