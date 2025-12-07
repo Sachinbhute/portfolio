@@ -39,8 +39,8 @@ html {
 }
 
 .navbar .navbar-brand{
-    color: #CBD5E1;
-    font-weight: 700;
+    color: #CBD5E1!important;
+    font-weight: 700!important;
 }
 
 @media (max-width: 576px) {
