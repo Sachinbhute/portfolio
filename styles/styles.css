@@ -39,9 +39,8 @@ html {
 }
 
 .navbar .navbar-brand{
-    width: 7rem;
-    height: 4rem;
-    border-radius: 50%;
+    color: #CBD5E1;
+    font-weight: 700;
 }
 
 @media (max-width: 576px) {
