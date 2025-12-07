@@ -19,6 +19,18 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'devicon';
+  src: url('https://cdn.jsdelivr.net/gh/devicons/devicon/fonts/devicon.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'bootstrap-icons';
+  src: url('https://cdn.jsdelivr.net/npm/bootstrap-icons/font/fonts/bootstrap-icons.woff2') format('woff2');
+  font-display: swap;
+}
+
 
 .navbar{
     background-color: #0F172A !important;
