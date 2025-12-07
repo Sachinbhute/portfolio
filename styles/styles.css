@@ -65,6 +65,7 @@ p, li, a, span {
 
 .hero{
     background-color: #0F172A;
+    padding-bottom: 1rem;
 }
 
 .hero-heading{
