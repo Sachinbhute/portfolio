@@ -9,6 +9,7 @@
 
 .navbar .nav-link{
     color: #F8FAFC !important;
+    font-family: 'Inter', sans-serif !important;
 }
 
 .navbar .nav-link:hover,
@@ -20,38 +21,32 @@
     justify-content: space-between;
 }
 
-.navbar-brand{
-    font-family: 'Poppins', sans-serif;
-    color: #F8FAFC;
-    padding: 5px;
-}
-
-.navbar .nav-link{
-    font-family: 'Inter', sans-serif !important;
+.navbar .navbar-brand{
+    width: 7rem;
+    height: 4rem;
+    border-radius: 50%;
 }
 
 .navbar .navbar-toggler-icon{
     filter: invert(1);
 }
 
-.navbar img{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    filter: invert(1);
-}
 .offcanvas{
     background-color: #0F172A;
 }
 
-.offcanvas .btn-close{
+.offcanvas-header .btn-close{
     filter: invert(1);
 }
+
 
 @media (max-width: 576px) { 
     .offcanvas .nav{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        gap: 2rem;
+    }
+    .offcanvas .nav .nav-item{
+        border-bottom: 1px solid #F8FAFC;
     }
 }
