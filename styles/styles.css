@@ -2,6 +2,18 @@
     margin: 0px;
     padding: 0px;
 }
+:root {
+  --heading-font: 'Poppins', sans-serif;
+  --body-font: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--heading-font);
+}
+
+p, li, a, span {
+  font-family: var(--body-font);
+}
 
 .navbar{
     background-color: #0F172A !important;
@@ -49,4 +61,37 @@
     .offcanvas .nav .nav-item{
         border-bottom: 1px solid #F8FAFC;
     }
+}
+
+.hero{
+    background-color: #0F172A;
+}
+
+.hero-heading{
+    font-weight: 700;
+    color:  #F8FAFC;
+    margin-top: 2rem;
+}
+
+.hero-content{
+    font-weight: 500;
+    color: #CBD5E1;
+}
+
+.profile{
+    border: 2px solid #0F172A;
+    border-radius: 50%;
+    width: 9.5rem;
+    height: 9.5rem;
+}
+
+.custom-btn{
+    background-color: #4F46E5;
+    color: #FFFFFF;
+    font-family: var(--body-font);
+}
+
+.custom-btn:hover{
+    background-color: #4F46ff;
+    color: #FFFFFF;
 }
