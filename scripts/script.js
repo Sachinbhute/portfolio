@@ -24,5 +24,4 @@ function type() {
     }
     setTimeout(type, isDeleting ? 50 : 120);
 }
-
 window.onload = type;

@@ -19,6 +19,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -26,19 +27,12 @@
     <header>
         <nav class="navbar sticky-top navbar-expand-sm navbar-expand-lg">
             <img src="img/logo_main.png" alt="website logo" class="navbar-brand">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar"
-                aria-controls="offcanvasExample">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-lg offcanvas-end" tabindex="-1" id="sidebar">
-                <div class="offcanvas-header"><button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button></div>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="bi bi-house-fill  me-2"></i> Home</a>
+                        <a href="#hero-section" class="nav-link"><i class="bi bi-house-fill  me-2"></i> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"><i class="bi bi-wrench-adjustable me-2"></i> Skill</a>
+                        <a href="#skill-section" class="nav-link"><i class="bi bi-wrench-adjustable me-2"></i> Skill</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link"><i class="bi bi-folder-fill me-2"></i> Projects</a>
@@ -54,7 +48,7 @@
         </nav>
     </header>
     <main>
-        <section class="container-fluid hero">
+        <section class="container-fluid hero" id="hero-section">
             <div class="row">
                 <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
                     <img src="img/my_photo.jpeg" alt="my photo" class="profile">
@@ -70,6 +64,64 @@
                         </div>
                         <div class="col-6 col-lg-6"><button class="btn custom-btn"> <i class="bi-code-slash"></i> View
                                 Projects</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid skills" id="skill-section">
+            <div class="d-flex justify-content-center align-items-center">
+                <h1 class="skills-heading">Skills and Technologies</h1>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+                <p class="skills-content">The technologies I work with to build scalable and modern applications.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card custom-card">
+                        <img src="img/frontend_online_3.jpg" alt="font_end" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Front-end Technologies</h5>
+                            <p class="card-text"><i class="devicon-html5-plain"></i> HTML 5</p>
+                            <p class="card-text"><i class="devicon-css3-plain"></i> CSS</p>
+                            <p class="card-text"><i class="devicon-javascript-plain"></i> JavaScript</p>
+                            <p class="card-text"><i class="devicon-bootstrap-plain"></i> Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card custom-card">
+                        <img src="img/datastorage.jpg" alt="font_end" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Database and Storage</h5>
+                            <p class="card-text"><i class="devicon-mysql-plain"></i> MySQL</p>
+                            <p class="card-text"><i class="devicon-firebase-plain"></i> Firebase</p>
+                            <p class="card-text"><i class="devicon-mongodb-plain"></i> MongoDB</p>
+                            <p class="card-text"><i class="devicon-oracle-original"></i> Oracle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card custom-card">
+                        <img src="img/backend_dev.jpg" alt="font_end" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Back-end Technologies</h5>
+                            <p class="card-text"><i class="devicon-python-plain"></i> Python</p>
+                            <p class="card-text"><i class="devicon-django-plain"></i> Django</p>
+                            <p class="card-text"><i class="devicon-java-plain"></i> Java</p>
+                            <p class="card-text"><i class="devicon-flask-plain"></i> Flask</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100 custom-card">
+                        <img src="img/devops.jpg" alt="font_end" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Tools and DevOps</h5>
+                            <p class="card-text"><i class="devicon-vscode-plain"></i> vsCode</p>
+                            <p class="card-text"><i class="devicon-github-plain"></i> Git & GitHub</p>
+                            <p class="card-text"><i class="devicon-linux-plain"></i> Linux</p>
+                            <p class="card-text"><i class="devicon-docker-plain"></i> Docker</p>
+                        </div>
                     </div>
                 </div>
             </div>

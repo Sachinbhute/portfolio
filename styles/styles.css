@@ -15,6 +15,11 @@ p, li, a, span {
   font-family: var(--body-font);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .navbar{
     background-color: #0F172A !important;
 }
@@ -39,27 +44,13 @@ p, li, a, span {
     border-radius: 50%;
 }
 
-.navbar .navbar-toggler-icon{
-    filter: invert(1);
-}
-
-.offcanvas{
-    background-color: #0F172A;
-}
-
-.offcanvas-header .btn-close{
-    filter: invert(1);
-}
-
-
-@media (max-width: 576px) { 
-    .offcanvas .nav{
+@media (max-width: 576px) {
+    .nav{
         display: flex;
-        flex-direction: column;
-        gap: 2rem;
+        justify-content: center!important;
     }
-    .offcanvas .nav .nav-item{
-        border-bottom: 1px solid #F8FAFC;
+    .nav .nav-item .nav-link{
+        font-size: 1em;
     }
 }
 
@@ -100,4 +91,30 @@ p, li, a, span {
 .custom-btn:active{
     background-color: #4F46ff !important;
     color: #FFFFFF;
+}
+
+.skills{
+    background-color: #FFFFFF;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.skills-heading{
+    color:  #4F46E5;
+    font-weight: 700;
+}
+
+.skills-content{
+    color:  #4F46ff;
+    font-weight: 500;
+}
+
+.custom-card{
+    background-color: #EEF2FF;
+    color:#4F46E5;
+}
+
+.card-img-top{
+    height: 14.74rem;
+    object-fit: cover;
 }
