@@ -95,3 +95,8 @@ p, li, a, span {
     background-color: #4F46ff;
     color: #FFFFFF;
 }
+
+.custom-btn:active{
+    background-color: #4F46ff !important;
+    color: #FFFFFF;
+}
