@@ -1,11 +1,11 @@
-const roles = ["Sachin", "Full-Stack Developer", "AI Learner", "ML Enthusiast","Django Developer"]
+const roles = ["Sachin", "Full-Stack Developer", "AI Learner", "ML Enthusiast", "Django Developer"]
 let current = ""
 let i = 0
 let j = 0
 isDeleting = false
 function type() {
     current = roles[i];
-    
+
     if (!isDeleting) {
         document.getElementById("name").textContent = current.slice(0, ++j);
     } else {
