@@ -79,7 +79,7 @@ html {
     color: #CBD5E1 !important;
 }
 
-/* Hero */
+
 .hero {
     padding-bottom: 1rem;
 }
@@ -117,7 +117,13 @@ html {
     color: #4F46E5;
 }
 
-/* Sections */
+.custom-card:hover{
+    box-shadow:
+    0 0 10px #4F46E5;
+    transition: 0.5s;
+}
+
+
 .skills {
     background-color: #FFFFFF;
 }
